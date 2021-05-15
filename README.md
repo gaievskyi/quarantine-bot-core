@@ -18,11 +18,20 @@ A Microsoft Teams bot will automatically join a meeting and record it.
   ```
 
 - Step 2:
-  Set up your environment [.env]:
+  Create your environment file in the root directory:
+
+  ```bash
+  touch .env
+  ```
+
+- Step 3:
+  Set up your environment `.env`:
 
   ```text
   EMAIL=
   PASSWORD=
+
+  TEAM=
   ```
 
 ## Usage
