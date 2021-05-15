@@ -1,11 +1,11 @@
-from common.settings import browser
-from common.settings import config
-from common.constants import greeting
+from .common.settings import browser
+from .common.settings import config
+from .common.constants import greeting
 
-from models.Bot import Bot
+from .models.Bot import Bot
 
 
-def run():
+def run() -> None:
     # Greet us
     print(greeting)
     # Create an instance of the bot
@@ -15,5 +15,5 @@ def run():
     # bot.do_everything_instead_of_me()
     bot.start()
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run()

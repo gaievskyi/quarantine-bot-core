@@ -1,5 +1,5 @@
 from .Channel import Channel
-import common.functions as fn
+from ..common import functions as fn
 
 
 class Team:

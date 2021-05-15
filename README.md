@@ -27,10 +27,10 @@ A Microsoft Teams bot will automatically join a meeting and record it.
 
 ## Usage
 
-- Run [run.py](bot/run.py):
+- Execute Python script:
 
   ```bash
-  python3 run.py
+  python3 -m bot
   ```
 
 ## Licensing

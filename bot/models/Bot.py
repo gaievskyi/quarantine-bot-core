@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 
 from .Team import Team
 from .Meeting import Meeting
-import common.functions as fn
-from common.settings import config
+from ..common.settings import config
+from ..common import functions as fn
 
 class User:
     """Defines an Microsoft Teams user.
